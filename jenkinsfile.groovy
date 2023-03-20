@@ -1,6 +1,7 @@
 pipeline {
+     agent none
      tools {
-        docker 'latest'
+        dockerTool 'latest'
     }
     
     stages {
